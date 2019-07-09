@@ -405,7 +405,6 @@ export class Placement {
                 } else {
                     let anchors = layout.get('text-variable-anchor');
 
-
                     // If we this symbol was in the last placement, shift the previously used
                     // anchor to the front of the anchor list.
                     if (this.prevPlacement && this.prevPlacement.variableOffsets[symbolInstance.crossTileID]) {
